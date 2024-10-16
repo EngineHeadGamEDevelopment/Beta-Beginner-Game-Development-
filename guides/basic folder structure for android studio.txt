@@ -1,0 +1,11 @@
+- app
+  - src
+    - main
+      - java
+        - com.example.yourproject
+          - MainActivity.java
+      - res
+        - layout
+          - activity_main.xml
+  - build.gradle
+  - AndroidManifest.xml

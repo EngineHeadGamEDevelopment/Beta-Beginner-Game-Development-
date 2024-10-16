@@ -1,0 +1,162 @@
+import json
+import os
+import requests
+import asyncio
+
+# Define paths for data sources
+DATA_PATH = 'data'
+ASSETS_PATH = 'assets'
+MODEL_PATH = os.path.join(ASSETS_PATH, 'model.h5')
+
+# Check and create necessary directories
+os.makedirs(DATA_PATH, exist_ok=True)
+os.makedirs(ASSETS_PATH, exist_ok=True)
+
+# Sample data structures
+user_data = {
+    'interactions': [],
+    'preferences': {},
+}
+
+sensor_data = {
+    'temperature': [],
+    'humidity': [],
+}
+
+analytics_data = {
+    'usage_stats': [],
+}
+
+external_api_data = {
+    'weather': {},
+    'news': {},
+}
+
+API_KEYS = {
+    'weather': '04553dc2592137ad8380502d71e887ba',
+    'news': 'e18eb01c2b3d45908104628792035eeb'
+}
+
+def save_data(data, filename):
+    """Save data to a JSON file."""
+    try:
+        with open(os.path.join(DATA_PATH, filename), 'w') as f:
+            json.dump(data, f, indent=4)
+    except IOError as e:
+        print(f"Error saving data to {filename}: {e}")
+
+def load_data(filename):
+    """Load data from a JSON file."""
+    if os.path.exists(os.path.join(DATA_PATH, filename)):
+        try:
+            with open(os.path.join(DATA_PATH, filename), 'r') as f:
+                return json.load(f)
+        except (IOError, json.JSONDecodeError) as e:
+            print(f"Error loading data from {filename}: {e}")
+    return {}
+
+def add_interaction(interaction):
+    """Add a user interaction."""
+    if interaction:
+        user_data['interactions'].append(interaction)
+        save_data(user_data, 'user_data.json')
+
+def set_preference(key, value):
+    """Set a user preference."""
+    if key and value:
+        user_data['preferences'][key] = value
+        save_data(user_data, 'user_data.json')
+
+def add_sensor_data(sensor_type, value):
+    """Add sensor data based on type."""
+    if sensor_type in ['temperature', 'humidity'] and isinstance(value, (int, float)):
+        sensor_data[sensor_type].append(value)
+        save_data(sensor_data, 'sensor_data.json')
+
+def add_usage_stat(stat):
+    """Add usage statistics."""
+    if stat:
+        analytics_data['usage_stats'].append(stat)
+        save_data(analytics_data, 'analytics_data.json')
+
+async def fetch_external_data(source):
+    """Asynchronously fetch external data from APIs."""
+    try:
+        if source == 'weather':
+            url = f"http://api.openweathermap.org/data/2.5/weather?q=YourCity&appid={API_KEYS['weather']}&units=metric"  # Replace 'YOUR_CITY'
+            response = await asyncio.to_thread(requests.get, url)
+            if response.status_code == 200:
+                data = response.json()
+                external_api_data['weather'] = data
+                save_data(external_api_data, 'external_api_data.json')
+                print("Weather data fetched successfully.")
+            else:
+                print("Failed to fetch weather data.")
+
+        elif source == 'news':
+            url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEYS['news']}"  # Change country code if needed
+            response = await asyncio.to_thread(requests.get, url)
+            if response.status_code == 200:
+                data = response.json()
+                external_api_data['news'] = data
+                save_data(external_api_data, 'external_api_data.json')
+                print("News data fetched successfully.")
+            else:
+                print("Failed to fetch news data.")
+    except Exception as e:
+        print(f"Error fetching {source} data: {e}")
+
+def run_model():
+    """Placeholder function to run your AI model."""
+    print("Running AI model... (this is a placeholder)")
+
+def main():
+    """Main function to run the application."""
+    print("Welcome to the Unified AI Project!")
+
+    # Load existing data if they exist
+    user_data.update(load_data('user_data.json'))
+    sensor_data.update(load_data('sensor_data.json'))
+    analytics_data.update(load_data('analytics_data.json'))
+    external_api_data.update(load_data('external_api_data.json'))
+
+    while True:
+        print("\n1. Add Interaction")
+        print("2. Set Preference")
+        print("3. Add Sensor Data")
+        print("4. Add Usage Stat")
+        print("5. Fetch Weather Data")
+        print("6. Fetch News Data")
+        print("7. Run AI Model")
+        print("8. Exit")
+
+        choice = input("Choose an option: ")
+
+        if choice == '1':
+            interaction = input("Enter your interaction: ")
+            add_interaction(interaction)
+        elif choice == '2':
+            key = input("Enter preference key: ")
+            value = input("Enter preference value: ")
+            set_preference(key, value)
+        elif choice == '3':
+            sensor_type = input("Enter sensor type (temperature/humidity): ")
+            value = float(input("Enter sensor value: "))
+            add_sensor_data(sensor_type, value)
+        elif choice == '4':
+            stat = input("Enter usage statistic: ")
+            add_usage_stat(stat)
+        elif choice == '5':
+            asyncio.run(fetch_external_data('weather'))
+        elif choice == '6':
+            asyncio.run(fetch_external_data('news'))
+        elif choice == '7':
+            run_model()
+        elif choice == '8':
+            print("Exiting the application...")
+            break
+        else:
+            print("Invalid option. Please try again.")
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,20 @@
+# Collaboration History
+
+## Overview
+This document tracks the collaborative efforts between Riyaad Behardien and ChatGPT, including interactions, contributions, and outcomes.
+
+## Log Entries
+
+- **Date:** 2024-09-25
+- **Collaborator:** ChatGPT
+- **Role:** AI Assistant
+- **Contribution:** Provided structured data formats, implementation details, and ongoing support for project development.
+- **Feedback:** Riyaad provided insights on preferred data structuring and additional requirements for documentation.
+- **Next Steps:** Continue to enhance project documentation and provide real-time assistance for ongoing development.
+
+- **Date:** 2024-09-24
+- **Collaborator:** ChatGPT
+- **Role:** AI Assistant
+- **Contribution:** Assisted in creating a comprehensive README instruction manual for the Symtium AI Avatar-Create project.
+- **Feedback:** Riyaad requested inclusion of all necessary sections for completion and maintenance.
+- **Next Steps:** Finalize the README with all code snippets and ensure all project details are up-to-date.

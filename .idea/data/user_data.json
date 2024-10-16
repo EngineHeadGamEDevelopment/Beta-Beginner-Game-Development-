@@ -1,0 +1,17 @@
+{
+    "interactions": [
+        "hi",
+        "5",
+        "5",
+        "hi give weather updates",
+        "give me news"
+    ],
+    "preferences": {
+        "1": "6",
+        "2": "2"
+    },
+    "interaction_timestamps": [
+        "2024-09-25 18:16:50",
+        "2024-09-25 20:29:02"
+    ]
+}

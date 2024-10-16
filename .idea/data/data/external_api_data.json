@@ -1,0 +1,322 @@
+{
+    "weather": {
+        "coord": {
+            "lon": 18.4232,
+            "lat": -33.9258
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 14.79,
+            "feels_like": 13.89,
+            "temp_min": 13.66,
+            "temp_max": 15.61,
+            "pressure": 1022,
+            "humidity": 60,
+            "sea_level": 1022,
+            "grnd_level": 1020
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 6.26,
+            "deg": 185,
+            "gust": 12.52
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1728947713,
+        "sys": {
+            "type": 2,
+            "id": 2073005,
+            "country": "ZA",
+            "sunrise": 1728965056,
+            "sunset": 1729011566
+        },
+        "timezone": 7200,
+        "id": 3369157,
+        "name": "Cape Town",
+        "cod": 200
+    },
+    "news": {
+        "status": "ok",
+        "totalResults": 37,
+        "articles": [
+            {
+                "source": {
+                    "id": null,
+                    "name": "Sports Illustrated"
+                },
+                "author": "Karl Rasmussen",
+                "title": "Jerry Jones Didn't Mince Words After Cowboys' Blowout Loss vs. Lions - Sports Illustrated",
+                "description": "Jerry Jones wasn't happy after the Cowboys lost by 38... on his birthday.",
+                "url": "https://www.si.com/nfl/jerry-jones-didnt-mince-words-after-cowboys-blowout-loss-vs-lions",
+                "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4266,h_2399,x_0,y_31/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/si/01ja45rezdh7fws0regc.jpg",
+                "publishedAt": "2024-10-14T00:15:55Z",
+                "content": "The Dallas Cowboys were embarrassed on their home field on Sunday in what was ultimately not a very happy birthday for Jerry Jones.\r\nThe Detroit Lions marched into AT&amp;T Stadium and served a whoop\u2026 [+1024 chars]"
+            },
+            {
+                "source": {
+                    "id": "ars-technica",
+                    "name": "Ars Technica"
+                },
+                "author": "Stephen Clark",
+                "title": "SpaceX catches returning rocket in mid-air, turning a fanciful idea into reality - Ars Technica",
+                "description": "\u201cStarships are meant to fly. It sure as hell flew today. So let\u2019s get ready for the next one.\u201d\u2026",
+                "url": "https://arstechnica.com/space/2024/10/spacex-catches-returning-rocket-in-mid-air-turning-a-fanciful-idea-into-reality/",
+                "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/10/starship_flight5_catch1.jpg",
+                "publishedAt": "2024-10-14T00:14:17Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "the-washington-post",
+                    "name": "The Washington Post"
+                },
+                "author": "Steve Hendrix",
+                "title": "On IDF tour of southern Lebanon, signs of Hezbollah tunnels and arms - The Washington Post",
+                "description": "The Israel Defense Forces brought journalists into southwestern Lebanon on Sunday to show what commanders described as extensive militant infrastructure.",
+                "url": "https://www.washingtonpost.com/world/2024/10/13/isarel-military-lebanon-south-hezbollah-war/",
+                "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GJBS2D35Y4XQXHPO3A2RR4TSBM.jpg&w=1440",
+                "publishedAt": "2024-10-13T23:45:51Z",
+                "content": "SOUTHERN LEBANON In a stretch of scrubby frontier less than 1,000 feet north of the concrete wall that divides Lebanon from Israel, two Israeli commanders stood in enemy territory and peered into a c\u2026 [+7748 chars]"
+            },
+            {
+                "source": {
+                    "id": "politico",
+                    "name": "Politico"
+                },
+                "author": "Ally Mutnick",
+                "title": "Internal GOP polling memo says Senate Republicans are still behind in key races - POLITICO",
+                "description": "Some races are tightening but other key pickup opportunities are moving in the wrong direction, according to a new round of polling from the Senate Leadership Fund.",
+                "url": "https://www.politico.com/news/2024/10/13/senate-republican-poll-memo-00183570",
+                "urlToImage": "https://static.politico.com/5b/38/0c5065e846419fcdbe043061e429/https-delivery-gettyimages.com/downloads/2161709946",
+                "publishedAt": "2024-10-13T23:36:06Z",
+                "content": "The 2024 map is full of offensive targets for Republicans, including open seats in Michigan, Maryland and Arizona. They have a near-certain pickup in West Virginia and polling has consistently shown \u2026 [+9547 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Eonline.com"
+                },
+                "author": null,
+                "title": "Bethanny Hamilton Makes Plea to Help Her Nephew, 3, After Drowning Incident - E! NEWS",
+                "description": "Pro surfer and shark attack survivor Bethany Hamilton and her family are seeking help for her 3-year-old nephew Andrew after he was hospitalized after drowning.",
+                "url": "https://www.eonline.com/news/1408574/bethanny-hamilton-makes-plea-to-help-her-nephew-3-after-drowning-incident",
+                "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2024913/rs_1200x1200-241013154701-1200-bethany-hamilton-2009-cjh-101224.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+                "publishedAt": "2024-10-13T23:35:00Z",
+                "content": "Shark attack survivor Bethany Hamilton is making an urgent plea on behalf of her family.\r\nThe pro surfer shared Oct. 12 that her nephew Andrew, 3, had been hospitalized after drowning and needed help\u2026 [+778 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Kathleen Magramo, Sophie Tanno, Antoinette Radford, Maureen Chowdhury",
+                "title": "Attack on Binyamina, Israel from Lebanon leaves 60 injured, Hezbollah claims responsibility: Live updates - CNN",
+                "description": "At least four Israeli soldiers were killed and more than 60 were injured in a Hezbollah drone attack in central-northern Israel, according to first responders and the Israeli military. Follow for live news updates.",
+                "url": "https://www.cnn.com/world/live-news/israel-war-iran-palestine-lebanon-10-13-24/index.html",
+                "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2177538241-copy.jpg?c=16x9&q=w_800,c_fill",
+                "publishedAt": "2024-10-13T23:27:00Z",
+                "content": "At least 41\u00a0people, including at least 13 children, have been killed by Israeli strikes in Gaza on Sunday, according to hospitals.\r\nAt least 22 people were killed in Israeli strikes on Al Mufti schoo\u2026 [+1748 chars]"
+            },
+            {
+                "source": {
+                    "id": "reuters",
+                    "name": "Reuters"
+                },
+                "author": "Phil Stewart, Jasper Ward",
+                "title": "US to send anti-missile system and troops to Israel, Pentagon says - Reuters",
+                "description": "A military deployment to Israel is rare outside of drills. U.S. troops have aided Israel from warships and fighter jets when it came under Iranian attack, but they were outside the country.",
+                "url": "https://www.reuters.com/world/us-send-anti-missile-system-israel-says-pentagon-2024-10-13/",
+                "urlToImage": "https://www.reuters.com/resizer/v2/A5OCWMTEIJIO7KBDMPS3JHXEHY.jpg?auth=47886d68cf04354bdbc1d87b3f8b92d1d2d22904b1bc6e74ffa9f416efa250f6&height=1005&width=1920&quality=80&smart=true",
+                "publishedAt": "2024-10-13T23:24:22Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Scott Glover, Curt Devine, Kyung Lah, Daniel Medina",
+                "title": "As Harris makes case for presidency, her record as prosecutor draws fresh scrutiny - CNN",
+                "description": "When Kamala Harris famously refused to seek the death penalty against a young gang member accused of killing a cop\u202ftwo decades ago, she said then\u202fthat her opposition to capital punishment was well-reasoned and absolute.",
+                "url": "https://www.cnn.com/2024/10/13/politics/harris-prosecutor-scrutiny-invs/index.html",
+                "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2174047417.jpg?c=16x9&q=w_800,c_fill",
+                "publishedAt": "2024-10-13T23:05:00Z",
+                "content": "When Kamala Harris famously refused to seek the death penalty against a young gang member accused of killing a coptwo decades ago, she said thenthat her opposition to capital punishment was well-reas\u2026 [+12580 chars]"
+            },
+            {
+                "source": {
+                    "id": "usa-today",
+                    "name": "USA Today"
+                },
+                "author": "Christopher Cann, Zac Anderson, Jeanine Santucci, Jorge L. Ortiz",
+                "title": "Florida power will be restored by Tuesday; Biden surveys Milton damage: Updates - USA TODAY",
+                "description": "President Joe Biden toured Florida communities devastated by Hurricane Milton as the state deals with power outages and persistent flooding.",
+                "url": "https://www.usatoday.com/story/news/nation/2024/10/13/hurricane-milton-biden-florida-sunday/75657451007/",
+                "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/10/13/USAT/75664265007-usatsi-24483091.jpg?crop=2999,1688,x0,y60&width=2999&height=1688&format=pjpg&auto=webp",
+                "publishedAt": "2024-10-13T23:03:45Z",
+                "content": "ST. PETE BEACH, Fla. President Joe Biden on Sunday visited Florida\u00a0for the second time in a little more than a week to\u00a0tour\u00a0storm-ravaged communities as the state grappled with hundreds of thousands \u2026 [+10340 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "[Removed]"
+                },
+                "author": null,
+                "title": "[Removed]",
+                "description": "[Removed]",
+                "url": "https://removed.com",
+                "urlToImage": null,
+                "publishedAt": "2024-10-13T21:56:34Z",
+                "content": "[Removed]"
+            },
+            {
+                "source": {
+                    "id": "the-hill",
+                    "name": "The Hill"
+                },
+                "author": "Alex Gangitano",
+                "title": "In NC, Harris digs at Trump over medical records, debate - The Hill",
+                "description": "GREENVILLE, N.C. \u2014 Vice President Harris on Sunday took digs at former President Trump, suggesting that he is hiding away so voters don\u2019t know the truth about him. \u201cHe refuses to release his medical records. I\u2019ve done it. Every other presidential candidate in\u2026",
+                "url": "https://thehill.com/homenews/campaign/4931397-harris-nc-rally-trump-medical-records-debate/",
+                "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/10/AP24287765688389-e1728854715378.jpg?w=1280",
+                "publishedAt": "2024-10-13T21:38:00Z",
+                "content": "Skip to content\r\nGREENVILLE, N.C. \u2014 Vice President Harris on Sunday took digs at former President Trump, suggesting that he is hiding away so voters don\u2019t know the truth about him.\r\n\u201cHe refuses to re\u2026 [+2322 chars]"
+            },
+            {
+                "source": {
+                    "id": "fortune",
+                    "name": "Fortune"
+                },
+                "author": "Christiaan Hetzner",
+                "title": "Elon Musk\u2019s Optimus bot stole the show at Tesla\u2019s robotaxi unveil\u2014but the AI was all smoke and mirrors - Fortune",
+                "description": "His most important future product was acting very much thanks to human intelligence with critics calling it a \"parlor trick.\"",
+                "url": "https://fortune.com/2024/10/13/elon-musk-tesla-optimus-robot-tele-operated-robotaxi/",
+                "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/10/GettyImages-2160436537-e1728852660207.jpg?resize=1200,600",
+                "publishedAt": "2024-10-13T21:28:00Z",
+                "content": "On paper, Thursday nights We, Robot event may have belonged to Teslas robotaxi, but the real star of the show was Optimus.Elon Musks humanoid robot wowed attendees as a half dozen or so navigated the\u2026 [+3643 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "author": "Kari Anderson",
+                "title": "Liberty hold on for 80-66 win over Lynx in Game 2 to tie up WNBA Finals at 1-1 - Yahoo Sports",
+                "description": "Betnijah Laney-Hamilton was key for the Liberty, scoring a season-high 20 points as New York bounced back from a Game 1 loss.",
+                "url": "https://sports.yahoo.com/liberty-hold-on-for-80-66-win-over-lynx-in-game-2-to-tie-up-wnba-finals-at-1-1-211923049.html",
+                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/9wNTc_OcMuplKk8Ge8ghHQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-10/cbb0e900-89a6-11ef-af7f-66d5fb968030",
+                "publishedAt": "2024-10-13T21:19:23Z",
+                "content": "The New York Liberty evened the championship series on Sunday, defeating the Minnesota Lynx 80-66 to bring the WNBA Finals to 1-1.\r\nAlthough the Lynx threatened another comeback after taking the wild\u2026 [+2787 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Deadline"
+                },
+                "author": "Natalie Oganesyan",
+                "title": "Liam Gallagher Reacts To \u2018SNL\u2019 Sketch Poking Fun At Oasis Brothers\u2019 Feud - Deadline",
+                "description": "Liam Gallagher, one-half of Oasis, responded to a 'Saturday Night Live' skit that poked fun at the group's warring brothers.",
+                "url": "http://deadline.com/2024/10/liam-gallagher-snl-sketch-oasis-feud-1236114682/",
+                "urlToImage": "https://deadline.com/wp-content/uploads/2024/10/Screenshot-2024-10-13-at-1.32.39\u202fPM.png?w=1024",
+                "publishedAt": "2024-10-13T20:35:00Z",
+                "content": "Today is gonna be the day Liam Gallagher is gonna throw it back to Saturday Night Live.\r\nIn a succinct one-liner posted to X earlier this morning, one-half of the brothers in the rock band Oasis reac\u2026 [+2003 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "YouTube"
+                },
+                "author": "NFL",
+                "title": "Washington Commanders vs. Baltimore Ravens Game Highlights | NFL 2024 Season Week 6 - NFL",
+                "description": null,
+                "url": "https://www.youtube.com/watch?v\\\\u003dw26hHiVU5do",
+                "urlToImage": null,
+                "publishedAt": "2024-10-13T20:23:09Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "New York Post"
+                },
+                "author": "Michael Arinze",
+                "title": "Giants vs. Bengals prediction: \u2018Sunday Night Football\u2019 picks, odds - New York Post ",
+                "description": "The Bengals are trying to get back in the win column Sunday night when they face the Giants at MetLife Stadium.",
+                "url": "https://nypost.com/2024/10/13/betting/giants-vs-bengals-prediction-sunday-night-football-picks-odds/",
+                "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/10/Giants_Seahawks_Football_42202-e084e.jpg?quality=75&strip=all&w=1024",
+                "publishedAt": "2024-10-13T20:00:00Z",
+                "content": "Gambling content 21+. The New York Post may receive an affiliate commission if you sign up through our links. Read our editorial standards for more information.\r\nThe Bengals odds of reaching the post\u2026 [+3745 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Veronica Stracqualursi",
+                "title": "Trump suggests using military against \u2018enemy from within\u2019 on Election Day - CNN",
+                "description": "Former President Donald Trump suggested using the military to handle what he called \u201cthe enemy from within\u201d on Election Day, saying that he isn\u2019t worried about chaos from his supporters or foreign actors, but instead from \u201cradical left lunatics.\u201d",
+                "url": "https://www.cnn.com/2024/10/13/politics/trump-military-enemy-from-within-election-day/index.html",
+                "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2178028914.jpg?c=16x9&q=w_800,c_fill",
+                "publishedAt": "2024-10-13T19:25:00Z",
+                "content": "Former President Donald Trump suggested using the military to handle what he called the enemy from within on Election Day, saying that he isnt worried about chaos from his supporters or foreign actor\u2026 [+2886 chars]"
+            },
+            {
+                "source": {
+                    "id": "fox-news",
+                    "name": "Fox News"
+                },
+                "author": "Melissa Rudy",
+                "title": "'I'm a radiologist \u2014 to reduce breast cancer risk, eat these 5 foods and follow these healthy habits' - Fox News",
+                "description": "Fox News medical contributor Dr. Nicole Saphier appeared on \u201cFox & Friends\" on Sunday to discuss the rising risk of breast cancer \u2014 and specific foods and habits that can help reduce it.",
+                "url": "https://www.foxnews.com/health/radiologist-reduce-breast-cancer-risk-eat-foods-follow-healthy-habits",
+                "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/10/nicole-saphier.jpg",
+                "publishedAt": "2024-10-13T19:05:00Z",
+                "content": "Breast cancer affects one in eight American women, with the number of diagnoses rising every year, statistics show.\r\nFox News medical contributor Dr. Nicole Saphier appeared on \"Fox &amp; Friends\" on\u2026 [+4935 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "author": "Julie Johnsson",
+                "title": "Boeing\u2019s Endless Doom Loop Gives No Respite to New CEO Ortberg - Yahoo Finance",
+                "description": "(Bloomberg) -- As Boeing Co. lurches from one crisis to the next, there\u2019s been one constant for the embattled planemaker: Its predicament appears to be only ...",
+                "url": "https://finance.yahoo.com/news/boeing-endless-doom-loop-gives-180000720.html",
+                "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+                "publishedAt": "2024-10-13T18:00:00Z",
+                "content": "(Bloomberg) -- As Boeing Co. lurches from one crisis to the next, theres been one constant for the embattled planemaker: Its predicament appears to be only getting worse.From a freak accident that bl\u2026 [+7317 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Billboard"
+                },
+                "author": "Mitchell Peters",
+                "title": "Ariana Grande Takes Celine Dion\u2019s NFL Promo to the Next Level With Brutal UFC Theme Song on \u2018SNL\u2019: Watch - Billboard",
+                "description": "Ariana Grande portrayed Celine Dion in a spoof of the Canadian singer's NFL Sunday Night Football promo during \"Saturday Night Live\" on Oct. 12.",
+                "url": "http://www.billboard.com/music/music-news/ariana-grande-snl-celine-dion-nfl-promo-ufc-song-video-1235799100/",
+                "urlToImage": "https://www.billboard.com/wp-content/uploads/2024/10/ariana-grande-snl-celine-dion-billboard-1548_d23cc8.jpg?w=1024",
+                "publishedAt": "2024-10-13T17:55:08Z",
+                "content": "Ariana Grande was full of impressions during her latest hosting gig on Saturday Night Live.\r\nIn addition to taking on Britney Spears, Miley Cyrus and Gwen Stefani during her hilarious opening monolog\u2026 [+1615 chars]"
+            }
+        ]
+    },
+    "geological": {
+        "country_name": "South Africa",
+        "region_name": "Western Cape",
+        "city": "Cape Town",
+        "longitude": 18.424100875854492,
+        "latitude": -33.92490005493164
+    },
+    "search_results": []
+}

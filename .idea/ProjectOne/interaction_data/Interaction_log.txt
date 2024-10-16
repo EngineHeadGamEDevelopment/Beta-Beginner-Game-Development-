@@ -1,0 +1,24 @@
+# Interaction Log
+
+## Overview
+This log captures all interactions between Riyaad Behardien and ChatGPT, detailing user inputs, system responses, and overall collaboration outcomes.
+
+## Log Entries
+
+- **Date:** 2024-09-25
+- **Time:** 14:30:00
+- **User:** Riyaad Behardien
+- **Interaction Type:** Query
+- **Description:** Riyaad requested a structured log of interaction data, collaboration history, implementation details, success metrics, error logs, and scripts for ongoing research.
+- **Outcome:** Success
+- **Notes:** Riyaad expressed satisfaction with the structured format and requested further updates as needed.
+
+- **Date:** 2024-09-25
+- **Time:** 15:00:00
+- **User:** Riyaad Behardien
+- **Interaction Type:** Command
+- **Description:** Riyaad confirmed the completion of Step 3 and requested information for the subsequent steps for GitHub integration.
+- **Outcome:** Success
+- **Notes:** Further detailed descriptions were requested for files to be implemented in the project.tation details, success metrics, error logs, and scripts for ongoing research.
+- **Outcome:** Success
+- **Notes:** Riyaad expressed satisfaction with the structured format and requested further updates as needed.

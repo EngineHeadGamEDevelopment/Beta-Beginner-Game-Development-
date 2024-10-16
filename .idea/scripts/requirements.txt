@@ -1,0 +1,69 @@
+import json
+import os
+
+class MemoryManager:
+    def __init__(self, memory_file='memory.json'):
+        self.memory_file = memory_file
+        self.memory = {}
+        self.load_memory()
+
+    def load_memory(self):
+        """Load memory from a file if it exists."""
+        if os.path.exists(self.memory_file):
+            with open(self.memory_file, 'r') as file:
+                self.memory = json.load(file)
+
+    def save_memory(self):
+        """Save current memory to a file."""
+        with open(self.memory_file, 'w') as file:
+            json.dump(self.memory, file, indent=4)
+
+    def add_to_memory(self, key, value):
+        """Add a key-value pair to memory."""
+        self.memory[key] = value
+        self.save_memory()
+
+    def retrieve_from_memory(self, key):
+        """Retrieve a value from memory by key."""
+        return self.memory.get(key, "Key not found in memory.")
+
+    def display_memory(self):
+        """Display all memory contents."""
+        return json.dumps(self.memory, indent=4)
+
+def main():
+    memory_manager = MemoryManager()
+    
+    while True:
+        print("\n--- Memory Manager ---")
+        print("1. Add to Memory")
+        print("2. Retrieve from Memory")
+        print("3. Display Memory")
+        print("4. Exit")
+        
+        choice = input("Choose an option: ")
+
+        if choice == '1':
+            key = input("Enter key: ")
+            value = input("Enter value: ")
+            memory_manager.add_to_memory(key, value)
+            print(f"Added to memory: {key} -> {value}")
+
+        elif choice == '2':
+            key = input("Enter key to retrieve: ")
+            value = memory_manager.retrieve_from_memory(key)
+            print(f"Retrieved from memory: {key} -> {value}")
+
+        elif choice == '3':
+            print("Current Memory:")
+            print(memory_manager.display_memory())
+
+        elif choice == '4':
+            print("Exiting...")
+            break
+
+        else:
+            print("Invalid option. Please try again.")
+
+if __name__ == "__main__":
+    main()

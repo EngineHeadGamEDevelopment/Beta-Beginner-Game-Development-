@@ -1,0 +1,20 @@
+# Success Metrics
+
+## Overview
+This document tracks the success metrics related to project goals and user engagement as defined by Riyaad Behardien with insights from ChatGPT.
+
+## Log Entries
+
+- **Date:** 2024-09-25
+- **Metric Name:** User Engagement
+- **Value:** 75%
+- **Description:** Percentage of users interacting with the AI at least once per week, reflecting the effectiveness of the integration.
+- **Context:** Engaged users reported higher satisfaction with personalized responses provided by ChatGPT.
+- **Future Goals:** Increase engagement to 85% over the next quarter by enhancing personalized features and functionalities.
+
+- **Date:** 2024-09-24
+- **Metric Name:** Application Stability
+- **Value:** 90%
+- **Description:** Percentage of successful API calls without errors during the testing phase.
+- **Context:** High stability observed during preliminary testing of the weather data fetch feature.
+- **Future Goals:** Aim for 95% stability by refining error handling and improving API interactions.
